@@ -1,5 +1,5 @@
 :root {
-  --nav-height: 90px;
+  --nav-height: 120px;
 }
 
 * {
@@ -50,7 +50,7 @@ body {
 }
 
 #navbar img {
-  height: 76px;
+  height: 120px;
 }
 
 #navlist {
@@ -133,7 +133,7 @@ body {
 #body .slider {
   display: flex;
   justify-content: space-between;
-  padding: 0 10vw;
+  padding: 0 5vw;
 }
 
 #body .infor {
@@ -152,14 +152,19 @@ body {
 #body .slider .img-infor {
   width: 65%;
   height: 500px;
-  background-color: #ddd;
-  border-radius: 40px;
-  overflow: hidden;
 }
 
 #body .slider .img-infor img {
   width: 100%;
-  height: 100%;
+  height: 110%;
+  border-radius: 40px;
+  box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.3);
+  transition: 1s;
+}
+
+#body .slider .img-infor img:hover {
+  box-shadow: 40px 40px 35px 0 rgba(0, 0, 0, 0.3);
+  margin: -15px 15px 15px -15px;
 }
 
 #body .slider-content {
