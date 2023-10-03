@@ -297,10 +297,17 @@ body {
 
 #body .news-poster a {
   color: #ccc;
+  transition: .3s;
 }
 
 #body .news-poster .poster-list {
   margin-left: 20px;
+}
+
+#body .news-poster .poster-list li:hover a {
+  color: #fff;
+  font-size: 1.05rem;
+  transition: .3s;
 }
 
 #body .content .img-content img {
@@ -344,6 +351,10 @@ body {
 #footer .social a {
   margin: 16px 8px;
   color: #ffffffcb;
+}
+
+#footer .social a:hover i {
+  color: #fff;
 }
 
 #footer .social i {
@@ -428,4 +439,8 @@ body {
   width: 16px;
   height: 16px;
   color: #fff;
+}
+
+#up-btn:hover {
+  opacity: .7;
 }
