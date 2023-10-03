@@ -312,6 +312,8 @@ body {
   background-color: #172133;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #footer-content {
@@ -389,6 +391,20 @@ body {
   overflow: hidden;
   height: 300px;
   border-radius: 40px;
+}
+
+#footer #footer-create {
+  height: 80px;
+  width: 100%;
+  background-color: transparent;
+  padding: 0 10vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 0.5px solid #ffffff33;
+  color: #999;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.8rem;
 }
 
 #up-btn {
